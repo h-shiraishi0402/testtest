@@ -1,0 +1,59 @@
+<div class="container">
+    <br>
+    <div class="row ">
+        <div *ngFor="let product of products; let productId = index" class="col-sm">
+            <a [routerLink]="[productId]">
+                <div class="card">
+                    <img class="card-img-top" src={{product.ImagePath}} alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <p class="card-text">{{ product.comment }}</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--             
+            <div class="col-sm">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Aroma Treatment</h5>
+                        <p class="card-text">TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Aroma Treatment</h5>
+                        <p class="card-text">TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Facial</h5>
+                        <p class="card-text">TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Course</h5>
+                        <p class="card-text">TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST TSET TEST </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div> -->
