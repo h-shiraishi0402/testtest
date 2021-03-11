@@ -1,22 +1,241 @@
-<div class="container">
-    <br>
-    <div class="row ">
-        <div *ngFor="let product of products; let productId = index" class="col-sm">
-            <a [routerLink]="[productId]">
-                <div class="card">
-                    <img class="card-img-top" src={{product.ImagePath}} alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ product.name }}</h5>
-                        <p class="card-text">{{ product.comment }}</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="section">
+    <div class="container tim-container">
+        <div id="typography">
+            <div class="row">
+                <p></p>
+                <div class="text-left">
+                    <h1>
+                        <span class="note"></span>　　WELCOME
+                    </h1>
+                    <h2>
+                        <span class="note"></span> <br>おもてなしの心をこめてサービスいたします。<br>本日はリラックスをご堪能くださいませ
+                    </h2>
+                    <h3>
+                        <span class="note"></span> <a href="" target="_blank" class=" btn-primary">初めての方へ</a>
+                        <p>ここをクリックください</p>
+                    </h3>
+                    <h2>
+                        <span class="note"></span>　　　information
+                    </h2>
+                    <div class="text-left">
+                        <h5>
+                            <span class="note"></span> よりリラクゼーションをしていただくために<br> お客様にとって最適なメニューやサービス<br> をご提供をいたします。
+                        </h5>
+                    </div><br> <br>
+                </div>
+                <!-- <div class="text-left">
+                    <h2>
+                        <span class="note"></span> <br>おもてなしの心をこめてサービスいたします。<br>本日はリラックスをご堪能くださいませ
+                    </h2>
+                </div>
+                <div class="text-left">
+                    <h3>
+                        <span class="note"></span> <a href="" target="_blank" class=" btn-primary">初めての方へ</a>
+                        <p>ここをクリックください</p>
+                    </h3>
+                </div>
+                <div class="text-left">
+                    <h2>
+                        <span class="note"></span>information
+                    </h2>
+                </div>
+                <div class="text-left">
+                    <h5>
+                        <span class="note"></span> よりリラクゼーションをしていただくためにお客様にとって最適なメニューやサービスを<br> ご提供をいたします。
+                    </h5>
+                </div> -->
+                <!-- <div class="typography-line">
+                    <h6>
+                        <span class="note">Header 6</span> Thinking in textures
+                    </h6>
+                </div>
+                <div class="typography-line">
+                    <p>
+                        <span class="note">Paragraph</span> Thinking in textures
+                    </p>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container tim-container">
+                <div id="typography">
+                    <div class="aa">
+                        <!-- <span class="note"><br>DATE</span> -->
+                        <blockquote class="blockquote">
+                            <p class="mb-0">2020年12月営業日に関するお知らせ</p>
+                            <footer class="blockquote-footer">
+                                <cite title="source Title">重要</cite></footer><br>
+                        </blockquote><br>
+                    </div>
+                    <div class="aaa">
+                        <h4 style="margin: auto">12月13日</h4>
+                        <p class="text-primary">臨時にてお休みをいたします。次回の営業日は16からになります。</p>
+                    </div>
+                    <div class="aaa">
+                        <!-- <span class="note">12月24日</span> -->
+                        <h4 style="margin: auto">12月24日</h4>
+                        <p class="text-primary">特別なクーポンをプレゼントぜひお越しください</p>
+                    </div>
+                    <div class="aaa">
+                        <!-- <span class="note">12月24日</span> -->
+                        <h4 style="margin: auto">12月25日</h4>
+                        <p class="text-success">クリスマスイベントにて基本料金が20％OFFです。ぜひご来店ください</p>
+                    </div>
+                    <div class="aaa">
+                        <!-- <span class="note">12月30日</span> -->
+                        <h4 style="margin: auto">12月30日</h4>
+                        <p class="text-info">今年最後の営業になります。年始は2021年1月4日から開始いたします。</p>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
-    </div>
-</div>
 
-<!--             
+        <span id="menu"></span>
+        <div class="container"><br>
+            <h1>
+                <span class="note">Menu</span>
+            </h1><br>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FACIAL</h5>
+                            <p class="card-text">フェイシャルメニュー</p>
+                            <a href="product0" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/0.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">BODY</h5>
+                            <p class="card-text">ボディーメニュー</p>
+                            <a href="product2" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Other Courses</h5>
+                            <p class="card-text">その他のコース</p>
+                            <a href="product3" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-sm">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">For a limited Time</h5>
+                            <p class="card-text">期間限定メニュー</p>
+                            <a href="product4" class="btn btn-primary">Go somewhee</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- <div class="tim-title">
+            <h3>イベント</h3>
+        </div> -->
+        <div id="acordeon"><br><br>
+
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-target="#collapseOne" href="#collapseOne" data-toggle="gsdk-collapse">
+                         当店
+                        </a>
+                        </h4><br>
+                    </div>
+                    <!-- <div id="collapseOne" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            営業時間: XX:XX 〜 XX:XX　<br> お支払い方法: 現金 クレジットカード(JCB,Visa)<br> 駐車場: なし
+                        </div>
+                    </div> -->
+                </div>
+                <div class="panel panel-default"><br>
+                    <div class="panel-heading">
+                        <!-- <h4 class="panel-title"> -->
+                        <h4> <a>
+                            営業時間: XX:XX 〜 XX:XX　<br> お支払い方法: 現金 クレジットカード(JCB,Visa)<br> 駐車場: なし
+                            </a>
+                        </h4>
+                    </div>
+                    <!-- <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-target="#collapseThree" href="#collapseTwo" data-toggle="gsdk-collapse">
+                                白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒
+                        </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#collapseFour">
+                          白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒
+                        </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#collapseFive">
+                                白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒白白黒黒
+                        </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div> -->
+                    <br></div>
+
+            </div>
+            <!--  end acordeon -->
+
+            <!--             
             <div class="col-sm">
                 <div class="card">
                     <img class="card-img-top" src="./assets/0.jpg" alt="Card image cap">

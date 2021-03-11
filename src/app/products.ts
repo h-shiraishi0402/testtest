@@ -4,32 +4,123 @@ export const products = [
     comment:
       'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
     price: 799,
+    price2: 799,
+    price3: 799,
+    price4: 799,
+    price5: 799,
+    price6: 799,
     description: 'A large phone with one of the best screens',
-    ImagePath: './assets/0.jpg'
+    description2: 'A large phone with one of the best screens',
+    description3: 'A large phone with one of the best screens',
+    description4: 'A large phone with one of the best screens',
+    description5: 'A large phone with one of the best screens',
+    description6: 'A large phone with one of the best screens',
+
+    ImagePath: './assets/0.jpg',
+    ImagePath2: './assets/0.jpg',
+    ImagePath3: './assets/0.jpg',
+    ImagePath4: './assets/0.jpg',
+    ImagePath5: './assets/0.jpg',
+    ImagePath6: './assets/0.jpg'
   },
   {
     name: 'Aroma Treatment',
     comment:
       'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment2:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment3:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment4:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment5:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment6:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
     price: 699,
-    description: 'A great phone with one of the best cameras',
-    ImagePath: './assets/0.jpg'
+    price2: 799,
+    price3: 799,
+    price4: 799,
+    price5: 799,
+    price6: 799,
+    description: 'A large phone with one of the best screens',
+    description2: 'A large phone with one of the best screens',
+    description3: 'A large phone with one of the best screens',
+    description4: 'A large phone with one of the best screens',
+    description5: 'A large phone with one of the best screens',
+    description6: 'A large phone with one of the best screens',
+    ImagePath: './assets/0.jpg',
+    ImagePath2: './assets/0.jpg',
+    ImagePath3: './assets/0.jpg',
+    ImagePath4: './assets/0.jpg',
+    ImagePath5: './assets/0.jpg',
+    ImagePath6: './assets/0.jpg'
   },
   {
     name: 'Facial',
     comment:
       'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment2:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment3:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment4:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment5:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment6:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
     price: 299,
-    description: '',
-    ImagePath: './assets/1.jpg'
+    price2: 799,
+    price3: 799,
+    price4: 799,
+    price5: 799,
+    price6: 799,
+    description: 'A large phone with one of the best screens',
+    description2: 'A large phone with one of the best screens',
+    description3: 'A large phone with one of the best screens',
+    description4: 'A large phone with one of the best screens',
+    description5: 'A large phone with one of the best screens',
+    description6: 'A large phone with one of the best screens',
+    ImagePath: './assets/1.jpg',
+    ImagePath2: './assets/0.jpg',
+    ImagePath3: './assets/0.jpg',
+    ImagePath4: './assets/0.jpg',
+    ImagePath5: './assets/0.jpg',
+    ImagePath6: './assets/0.jpg'
   },
   {
     name: 'Course',
     comment:
       'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment2:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment3:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment4:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment5:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
+    comment6:
+      'TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST',
     price: 299,
-    description: '',
-    ImagePath: './assets/2.jpg'
+    price2: 799,
+    price3: 799,
+    price4: 799,
+    price5: 799,
+    price6: 799,
+    description: 'A large phone with one of the best screens',
+    description2: 'A large phone with one of the best screens',
+    description3: 'A large phone with one of the best screens',
+    description4: 'A large phone with one of the best screens',
+    description5: 'A large phone with one of the best screens',
+    description6: 'A large phone with one of the best screens',
+    ImagePath: './assets/2.jpg',
+    ImagePath2: './assets/0.jpg',
+    ImagePath3: './assets/0.jpg',
+    ImagePath4: './assets/0.jpg',
+    ImagePath5: './assets/0.jpg',
+    ImagePath6: './assets/0.jpg'
   }
 ];
 

@@ -35,6 +35,9 @@
                         ],
                         "styles": [
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
+                            "src/assets/sass/paper-kit.scss",
+                            "src/assets/css/demo.css",
+                            "src/assets/css/nucleo-icons.css",
                             "src/styles.scss"
 
                         ],
@@ -93,6 +96,9 @@
                         "karmaConfig": "karma.conf.js",
                         "assets": [
                             "src/favicon.ico",
+                            "src/assets/sass/paper-kit.scss",
+                            "src/assets/css/demo.css",
+                            "src/assets/css/nucleo-icons.css",
                             "src/assets"
                         ],
                         "styles": [
